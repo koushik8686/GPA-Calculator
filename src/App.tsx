@@ -9,6 +9,7 @@ import { initialSemesters } from './data/initialSemesters';
 import { Header } from './components/Header';
 import { GPADisplay } from './components/GPADisplay';
 import { ThemeToggle } from './components/ThemeToggle';
+import { GPAChart } from './components/GPAChart';
 
 export default function App() {
   const [semesters, setSemesters] = useState<Semester[]>(() => {
@@ -96,7 +97,7 @@ export default function App() {
       <div className="max-w-2xl mx-auto p-6 space-y-8">
         <Header />
         <GPADisplay gpa={overallGPA} />
-
+        <GPAChart semesters={semesters} />
         <div className="space-y-4">
           {semesters.map((semester) => (
             <SemesterAccordion

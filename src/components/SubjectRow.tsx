@@ -30,7 +30,7 @@ export const SubjectRow: React.FC<SubjectRowProps> = ({ subject, onGradeChange, 
       </select>
       <button 
         onClick={onDelete}
-        className="p-2 text-gray-400 hover:text-red-500 dark:hover:text-red-400 opacity-0 group-hover:opacity-100 transition-opacity"
+        className="p-2 text-gray-400 dark:hover:text-red-400 group-hover:opacity-100 transition-opacity"
       >
         <Trash className="w-4 h-4" />
       </button>

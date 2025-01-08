@@ -51,13 +51,13 @@ export const SemesterAccordion: React.FC<SemesterAccordionProps> = ({
         <div className="pr-4 flex items-center space-x-2">
           <button
             onClick={onAddSubject}
-            className="p-2 text-indigo-600 dark:text-indigo-400 hover:text-indigo-700 dark:hover:text-indigo-300 opacity-0 group-hover:opacity-100 transition-opacity"
+            className="p-2 text-indigo-600 dark:text-indigo-400 hover:text-indigo-700 dark:hover:text-indigo-300 group-hover:opacity-100 transition-opacity"
           >
             <Plus className="w-4 h-4" />
           </button>
           <button
             onClick={onDelete}
-            className="p-2 text-gray-400 hover:text-red-500 dark:hover:text-red-400 opacity-0 group-hover:opacity-100 transition-opacity"
+            className="p-2 text-gray-400 hover:text-red-500 dark:hover:text-red-400 group-hover:opacity-100 transition-opacity"
           >
             <Trash className="w-4 h-4" />
           </button>

@@ -11,7 +11,7 @@ export function calculateCumulativeGPAs(semesters: Semester[]) {
     
     cumulativeData.push({
       semester: semesters[i].name,
-      gpa: Number(cumulativeGPA.toFixed(2)),
+      gpa: Number(cumulativeGPA.toFixed(3)),
     });
   }
 

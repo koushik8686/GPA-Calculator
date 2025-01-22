@@ -10,6 +10,7 @@ import { Header } from './components/Header';
 import { GPADisplay } from './components/GPADisplay';
 import { ThemeToggle } from './components/ThemeToggle';
 import { GPAChart } from './components/GPAChart';
+import Footer from './components/Footer';
 
 export default function App() {
   const [semesters, setSemesters] = useState<Semester[]>(() => {
@@ -137,6 +138,8 @@ export default function App() {
             onAdd={handleAddSubject}
           />
         )}
+
+        <Footer/>
       </div>
     </div>
   );

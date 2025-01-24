@@ -15,7 +15,7 @@ export default function Footer() {
               <Mail className="h-5 w-5 transform transition-all duration-200 group-hover:scale-110 group-hover:text-purple-400" />
             </a>
             <a
-              href="https://www.linkedin.com/in/koushik-pinnu-ba0873297?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app
+              href="https://www.linkedin.com/in/koushik-pinnu-ba0873297?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
               target="_blank"
               rel="noopener noreferrer"
               className="group relative"

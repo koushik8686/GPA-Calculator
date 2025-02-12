@@ -25,7 +25,7 @@ export default function Footer() {
               <Linkedin className="h-5 w-5 transform transition-all duration-200 group-hover:scale-110 group-hover:text-purple-400" />
             </a>
             <a
-              href="https://github.com/koushik8686"
+              href="https://github.com/koushik8686/GPA-Calculator"
               target="_blank"
               rel="noopener noreferrer"
               className="group relative"
